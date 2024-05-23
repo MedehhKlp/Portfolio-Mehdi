@@ -1,0 +1,73 @@
+/* Réinitialisation des styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}   
+
+/* Navigation */
+nav {
+    background-color: #0a0b0c;
+    padding: 10px 0;
+    position: fixed; /* Fixer la barre de navigation en haut de la page */
+    width: 100%; /* Utiliser la largeur totale de l'écran */
+    top: 0; /* Positionner la barre de navigation en haut */
+    z-index: 1000; /* Assurer que la barre de navigation est au-dessus de tous les autres éléments */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+
+/* Sous-menus */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2abbf5;
+    white-space: nowrap;
+    width: auto; /* Au lieu de 150px, utilisez 'auto' pour ajuster la largeur au contenu */
+    padding: 10px; /* Ajout de padding pour les sous-menus */
+    text-align: left; /* Aligner le texte à gauche */
+}
+
+nav ul ul li {
+    display: block; /* Afficher les éléments en bloc */
+}
+
+nav ul ul li a {
+    padding: 10px 20px; /* Ajout de padding pour les éléments du sous-menu */
+    display: block; /* Afficher les éléments en bloc */
+    font-size: 14px; /* Réduire la taille de la police si nécessaire */
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* Styles spécifiques à la barre de navigation */
+#navbar {
+    color: #ffffff; /* Couleur du texte en blanc */
+    font-weight: 600; /* Texte en gras */
+}
+
+/* Autres styles de la barre de navigation ici */
+

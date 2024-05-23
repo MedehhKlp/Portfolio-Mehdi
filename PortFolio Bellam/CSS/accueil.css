@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(fond.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container img {
+    max-width: 300px; /* Ajustez la taille de votre logo selon vos besoins */
+    margin-bottom: 20px; /* Espace entre le logo et le titre */
+}
+
+.container h1 {
+    font-size: 3em; /* Taille de la police du titre */
+    font-family: 'Arial Black', sans-serif; /* Police principale */
+    color: #0f0c0c; /* Couleur du texte */
+    margin-bottom: 10px; /* Espace entre le titre et le texte */
+    text-transform: uppercase; /* Convertit le texte en majuscules */
+    letter-spacing: 2px; /* Espace entre les lettres */
+    text-shadow: 0 0 5px #fff; /* Ombre portée pour un effet futuriste */
+}
+
+
+.container p {
+    font-size: 1.5em; /* Taille de la police du texte */
+    color: #f7f1f1; /* Couleur du texte */
+}

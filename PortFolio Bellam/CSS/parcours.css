@@ -1,0 +1,71 @@
+/* Container */
+.container {
+    min-height: 100vh; /* Utilisation de la hauteur minimale de la fenêtre visible */
+    background-image: url(fond.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Aligner le contenu en haut */
+    padding-top: 50px; /* Ajouter un peu d'espace en haut */
+}
+
+
+.header h1 {
+    color: #fff; /* Couleur du texte en blanc */
+}
+
+/* Ajout de styles CSS pour afficher les expériences côte à côte */
+#experiences {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Pour espacer également les expériences */
+}
+
+.experience {
+    width: calc(50% - 20px); /* Calcul de la largeur pour deux éléments par ligne */
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff; /* Ajout de l'encadré autour de chaque expérience */
+    border-radius: 5px; /* Coins arrondis */
+    transition: transform 0.3s ease; /* Ajoute une transition douce */
+}
+
+.experience img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.experience:hover {
+    transform: scale(1.05); /* Agrandit légèrement l'élément au survol */
+}
+
+.details {
+    color: #ffffff;
+}
+
+.details h3 {
+    margin-bottom: 10px;
+}
+
+.details p {
+    margin-bottom: 5px;
+}
+
+.details a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.details a:hover {
+    background-color: #ffffff;
+    color: #000000; /* Changement de couleur au survol */
+}
+
+

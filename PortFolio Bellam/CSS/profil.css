@@ -1,0 +1,86 @@
+/* Fond d'écran */
+.background {
+    background-image: url(fond.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: fixed; /* Changement de la position en fixe */
+    width: 100%; /* Ajustement de la largeur à 100% */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Envoyer en arrière-plan */
+}
+
+/* Conteneur principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 150px; /* Ajustez selon votre barre de navigation */
+}
+
+/* Sections */
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Présentation */
+.presentation-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligner les éléments à gauche */
+    margin-bottom: 20px;
+}
+
+.presentation-content img {
+    width: 200px; /* Ajustez la taille de votre photo */
+    border-radius: 50%; /* Pour rendre la photo ronde */
+    border: 3px solid #fff; /* Ajoutez une bordure blanche */
+    margin-right: 20px; /* Espacement entre la photo et le texte */
+}
+
+.presentation-content p {
+    color: #fff; /* Couleur du texte en blanc */
+    font-size: 18px; /* Taille de la police */
+    line-height: 1.6; /* Hauteur de ligne */
+    max-width: 70%; /* Largeur maximale du texte */
+}
+
+
+/* Loisirs */
+.loisir {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.loisir img {
+    width: 200px; /* Ajustez la taille de vos photos de loisirs */
+    border-radius: 50%; /* Pour rendre les photos de loisirs légèrement arrondies */
+    border: 3px solid #fff; /* Ajoutez une bordure blanche */
+    margin-right: 20px; /* Espacement entre l'image et le texte */
+}
+
+.loisir-content {
+    color: #fff; /* Couleur du texte en blanc */
+    max-width: 70%; /* Largeur maximale du contenu */
+}
+
+.loisir-content h3 {
+    font-size: 24px; /* Taille de la police */
+    margin-bottom: 10px; /* Espacement en bas */
+}
+
+.loisir-content p {
+    font-size: 18px; /* Taille de la police */
+    line-height: 1.6; /* Hauteur de ligne */
+}
+ 
+
+
+
